@@ -23,8 +23,12 @@ Simple Dependency Injection Container for Unity projects
     
 - Includes *DependencyContainerBehaviour* which can register referenced GameObjects as singleton dependencies. This behaviour on awake will automatically pass dependencies to all gameobject components in current scene.
 
-## Bes Practices
+## Best Practices
 
 It is best to have all controllers/manager classes in once scene, map itself in a different scene. Put DependecyContainerBehaviour in the controller scene.
+
+## License
+
+MIT. Use, copy, download and do whatever you want with this code. If you have questions, feel free to contact me or open issues here.
   
   
